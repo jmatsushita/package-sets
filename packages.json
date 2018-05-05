@@ -83,6 +83,15 @@
     "repo": "https://github.com/purescript/purescript-control.git",
     "version": "compiler/0.12"
   },
+  "coroutines": {
+    "dependencies": [
+      "freet",
+      "parallel",
+      "profunctor"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-coroutines.git",
+    "version": "compiler/0.12"
+  },
   "datetime": {
     "dependencies": [
       "enums",
@@ -176,6 +185,17 @@
       "control"
     ],
     "repo": "https://github.com/purescript/purescript-free.git",
+    "version": "compiler/0.12"
+  },
+  "freet": {
+    "dependencies": [
+      "control",
+      "effect",
+      "exists",
+      "tailrec",
+      "transformers"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-freet.git",
     "version": "compiler/0.12"
   },
   "functions": {
@@ -449,8 +469,7 @@
     "version": "compiler/0.12"
   },
   "type-equality": {
-    "dependencies": [
-    ],
+    "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "compiler/0.12"
   },
