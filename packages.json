@@ -12,6 +12,16 @@
     "repo": "https://github.com/slamdata/purescript-aff.git",
     "version": "compiler/0.12"
   },
+  "aff-coroutines": {
+    "dependencies": [
+      "aff",
+      "avar",
+      "console",
+      "coroutines"
+    ],
+    "repo": "https://github.com/purescript-contrib/purescript-aff-coroutines.git",
+    "version": "compiler/0.12"
+  },
   "arrays": {
     "dependencies": [
       "foldable-traversable",
@@ -32,6 +42,18 @@
       "effect"
     ],
     "repo": "https://github.com/purescript/purescript-assert.git",
+    "version": "compiler/0.12"
+  },
+  "avar": {
+    "dependencies": [
+      "aff",
+      "effect",
+      "either",
+      "exceptions",
+      "functions",
+      "maybe"
+    ],
+    "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "compiler/0.12"
   },
   "bifunctors": {
