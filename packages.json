@@ -519,6 +519,7 @@
   },
   "validation": {
     "dependencies": [
+      "either",
       "bifunctors",
       "foldable-traversable"
     ],
