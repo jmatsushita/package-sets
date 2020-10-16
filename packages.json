@@ -24,7 +24,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-assert.git",
-    "version": "v4.1.0"
+    "version": "master"
   },
   "bifunctors": {
     "dependencies": [
@@ -32,7 +32,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
-    "version": "v4.0.0"
+    "version": "master"
   },
   "catenable-lists": {
     "dependencies": [
@@ -53,7 +53,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-console.git",
-    "version": "v4.4.0"
+    "version": "master"
   },
   "const": {
     "dependencies": [
@@ -82,7 +82,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
-    "version": "v4.2.0"
+    "version": "master"
   },
   "datetime": {
     "dependencies": [
@@ -120,7 +120,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-effect.git",
-    "version": "v2.0.1"
+    "version": "master"
   },
   "either": {
     "dependencies": [
@@ -237,7 +237,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-functions.git",
-    "version": "v4.0.0"
+    "version": "master"
   },
   "functors": {
     "dependencies": [
@@ -393,7 +393,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-newtype.git",
-    "version": "v3.0.0"
+    "version": "master"
   },
   "nonempty": {
     "dependencies": [
@@ -457,7 +457,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v4.1.1"
+    "version": "master"
   },
   "profunctor": {
     "dependencies": [
@@ -549,7 +549,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-refs.git",
-    "version": "v4.1.0"
+    "version": "master"
   },
   "semirings": {
     "dependencies": [
