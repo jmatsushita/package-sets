@@ -441,11 +441,11 @@
   , repo = "https://github.com/purescript/purescript-random.git"
   , version = "v4.0.0"
   }
--- , record =
---   { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
---   , repo = "https://github.com/purescript/purescript-record.git"
---   , version = "v2.0.2"
---   }
+, record =
+  { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
+  , repo = "https://github.com/strax/purescript-record.git"
+  , version = "master"
+  }
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-refs.git"
