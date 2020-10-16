@@ -156,24 +156,6 @@
   , repo = "https://github.com/purescript/purescript-foreign.git"
   , version = "v5.0.0"
   }
-, foreign-object =
-  { dependencies =
-    [ "arrays"
-    , "foldable-traversable"
-    , "functions"
-    , "gen"
-    , "lists"
-    , "maybe"
-    , "prelude"
-    , "st"
-    , "tailrec"
-    , "tuples"
-    , "typelevel-prelude"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/purescript/purescript-foreign-object.git"
-  , version = "v2.0.3"
-  }
 , free =
   { dependencies =
     [ "catenable-lists"
@@ -392,59 +374,15 @@
   , repo = "https://github.com/purescript/purescript-profunctor.git"
   , version = "v4.1.0"
   }
-, proxy =
-  { dependencies = [ "prelude" ]
-  , repo = "https://github.com/purescript/purescript-proxy.git"
-  , version = "v3.0.0"
-  }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-psci-support.git"
   , version = "v4.0.0"
   }
-, quickcheck =
-  { dependencies =
-    [ "arrays"
-    , "console"
-    , "control"
-    , "effect"
-    , "either"
-    , "enums"
-    , "exceptions"
-    , "foldable-traversable"
-    , "gen"
-    , "generics-rep"
-    , "identity"
-    , "integers"
-    , "lazy"
-    , "lcg"
-    , "lists"
-    , "math"
-    , "maybe"
-    , "newtype"
-    , "nonempty"
-    , "partial"
-    , "prelude"
-    , "record"
-    , "st"
-    , "strings"
-    , "tailrec"
-    , "transformers"
-    , "tuples"
-    , "unfoldable"
-    ]
-  , repo = "https://github.com/purescript/purescript-quickcheck.git"
-  , version = "v6.1.0"
-  }
 , random =
   { dependencies = [ "effect", "integers", "math" ]
   , repo = "https://github.com/purescript/purescript-random.git"
   , version = "v4.0.0"
-  }
-, record =
-  { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
-  , repo = "https://github.com/purescript/purescript-record.git"
-  , version = "v2.0.2"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
@@ -458,8 +396,8 @@
   }
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
-  , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "v4.1.1"
+  , repo = "https://github.com/strax/purescript-st.git"
+  , version = "master"
   }
 , strings =
   { dependencies =
@@ -536,11 +474,6 @@
   { dependencies = [] : List Text
   , repo = "https://github.com/purescript/purescript-type-equality.git"
   , version = "v3.0.0"
-  }
-, typelevel-prelude =
-  { dependencies = [ "prelude", "proxy", "type-equality" ]
-  , repo = "https://github.com/purescript/purescript-typelevel-prelude.git"
-  , version = "v5.0.2"
   }
 , unfoldable =
   { dependencies =
