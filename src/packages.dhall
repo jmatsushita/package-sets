@@ -1,1 +1,1 @@
-let packages = ./groups/purescript.dhall in packages
+let packages = ./groups/purescript-0.14-compatible.dhall in packages
