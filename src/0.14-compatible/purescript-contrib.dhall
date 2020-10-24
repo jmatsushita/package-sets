@@ -1,8 +1,32 @@
-{ arraybuffer-types =
+{ aff-coroutines =
+  { dependencies = [ "aff", "avar", "console", "coroutines" ]
+  , repo = "https://github.com/purescript-contrib/purescript-aff-coroutines.git"
+  , version = "v7.0.0"
+  }
+, arraybuffer-types =
   { dependencies = [] : List Text
   , repo =
       "https://github.com/purescript-contrib/purescript-arraybuffer-types.git"
   , version = "v2.0.0"
+  }
+, coroutines =
+  { dependencies = [ "freet", "parallel", "profunctor" ]
+  , repo = "https://github.com/purescript-contrib/purescript-coroutines.git"
+  , version = "v5.0.1"
+  }
+, freet =
+  { dependencies =
+    [ "bifunctors"
+    , "effect"
+    , "either"
+    , "exists"
+    , "prelude"
+    , "tailrec"
+    , "transformers"
+    , "aff"
+    ]
+  , repo = "https://github.com/purescript-contrib/purescript-freet.git"
+  , version = "v5.0.0"
   }
 , http-methods =
   { dependencies = [ "either", "prelude", "strings" ]
