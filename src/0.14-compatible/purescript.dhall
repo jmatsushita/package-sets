@@ -13,8 +13,8 @@
     , "unfoldable"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "master"
+  , repo = "https://github.com/srghma/purescript-arrays.git"
+  , version = "fix-foldable1"
   }
 , `assert` =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -197,8 +197,8 @@
     , "tuples"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript/purescript-free.git"
-  , version = "master"
+  , repo = "https://github.com/srghma/purescript-free.git"
+  , version = "fix-foldable1"
   }
 , functions =
   { dependencies = [ "prelude" ]
@@ -266,8 +266,8 @@
   }
 , lazy =
   { dependencies = [ "control", "foldable-traversable", "invariant", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-lazy.git"
-  , version = "master"
+  , repo = "https://github.com/srghma/purescript-lazy.git"
+  , version = "fix-foldable1"
   }
 , lcg =
   { dependencies =
@@ -331,8 +331,8 @@
     , "tuples"
     , "unfoldable"
     ]
-  , repo = "https://github.com/purescript/purescript-nonempty.git"
-  , version = "master"
+  , repo = "https://github.com/rhendric/purescript-nonempty.git"
+  , version = "rhendric/foldr1-and-foldl1"
   }
 , ordered-collections =
   { dependencies =
@@ -349,8 +349,8 @@
     , "unfoldable"
     , "unsafe-coerce"
     ]
-  , repo = "https://github.com/purescript/purescript-ordered-collections.git"
-  , version = "master"
+  , repo = "https://github.com/strax/purescript-ordered-collections.git"
+  , version = "fix-foldable1"
   }
 , orders =
   { dependencies = [ "newtype", "prelude" ]
@@ -395,8 +395,8 @@
     , "prelude"
     , "tuples"
     ]
-  , repo = "https://github.com/paluh/purescript-profunctor.git"
-  , version = "updateTo14"
+  , repo = "https://github.com/purescript/purescript-profunctor.git"
+  , version = "master"
   }
 , psci-support =
   { dependencies = [ "console", "effect", "prelude" ]
@@ -444,8 +444,8 @@
   }
 , record =
   { dependencies = [ "functions", "prelude", "st", "unsafe-coerce" ]
-  , repo = "https://github.com/strax/purescript-record.git"
-  , version = "updateTo14"
+  , repo = "https://github.com/purescript/purescript-record.git"
+  , version = "master"
   }
 , refs =
   { dependencies = [ "effect", "prelude" ]
@@ -465,7 +465,7 @@
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
   , repo = "https://github.com/JordanMartinez/purescript-st.git"
-  , version = "updateTo14"
+  , version = "master"
   }
 , strings =
   { dependencies =
